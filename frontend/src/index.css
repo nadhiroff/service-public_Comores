@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-km-navy: #1B3A6B;
+  --color-km-green: #2E7D32;
+  --color-km-yellow: #F5C518;
+  --color-km-red: #C1272D;
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+body {
+  @apply bg-gray-50 text-gray-800 font-sans;
+}
